@@ -1,0 +1,28 @@
+body{
+    background: url("../img/fondo-mar.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+}
+
+a .fab{
+    color: #FFF !important;
+    font-size: 30px !important;
+    margin: 0 10px !important;
+}
+h1{
+    text-shadow: #000 5px 0 10px !important;
+}
+.txt-1{
+    letter-spacing: 4px;
+    font-family: sans-serif;
+}
+.form-control{
+    background-color: transparent !important;
+    color: #FFF;
+
+}
+input::placeholder {
+    color: #FFF !important;
+    font-size: 1em;
+  }

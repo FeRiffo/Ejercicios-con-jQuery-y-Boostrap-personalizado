@@ -1,0 +1,297 @@
+body{
+    margin: 0px auto;
+    width: 320px;
+    height: 1000px;
+    font-family: tahoma;
+}
+
+#container{
+    width: 100%;
+}
+
+.menu{
+    margin-top: 5px;
+    width: 100%;
+    height: 215px;
+}
+
+.menu1{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.menu2{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.section1{
+    width: 100%;
+    height: 125px;
+}
+
+.caja1{
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    background-color: greenyellow;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.titulo-c2{
+    padding: 20px 20px;
+    font-size: 150%;
+    width: 100%;
+}
+
+.section2{
+    margin-top: 10px;
+    width: 100%;
+    height: 465px;
+    
+}
+
+.caja2{
+    margin-top: 5px;
+    width: 100%;
+    height: 150px;
+    background-color: #3588ca;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.caja3{
+    margin-top: 5px;
+    width: 100%;
+    height: 150px;
+    background-color: #3588ca;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.caja4{
+    margin-top: 5px;
+    width: 100%;
+    height: 150px;
+    background-color: #3588ca;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.section3{
+    margin-top: 10px;
+    width: 100%;
+    height: 420px;
+    
+}
+
+.caja5{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.caja6{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.caja7{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.caja8{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+@media (min-width:321px) and (max-width: 720px) {
+    body{
+        margin: 0px auto;
+        width: 720px;
+        height: 1000px;
+        font-family: tahoma;
+    }
+
+    .section1{
+        width: 100%;
+        height: 250px;
+    }
+    
+    .caja1{
+        margin: 0;
+        width: 100%;
+        height: 250px;
+        background-color: greenyellow;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 2px 2px grey;
+    }
+
+    .section3{
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+    }
+    
+    .caja5{
+        margin: 5px 5px;
+        width: 48%;
+        height: 100px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    
+    .caja6{
+        margin: 5px 5px;
+        width: 48%;
+        height: 100px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: right;
+    }
+    .caja7{
+        margin: 5px 5px;
+        width: 48%;
+        height: 100px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    .caja8{
+        margin: 5px 5px;
+        width: 48%;
+        height: 100px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: right;
+    }
+}
+
+@media (min-width:721px) {
+    body{
+        margin: 0px auto;
+        width: 1024px;
+        height: 880px;
+        font-family: tahoma;
+    }
+
+    .menu{
+        width: 100%;
+        height: 185px;
+    }
+    
+    .menu1{
+        margin: 0;
+        width: 49%;
+        height: 180px;
+        background-color: orange;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    
+    .menu2{
+        margin: 0;
+        width: 49%;
+        height: 180px;
+        background-color: orange;
+        box-shadow: 2px 2px 2px 2px grey;
+        float:right;
+    }
+
+    .section1{
+        margin-top: 10px;
+        width: 100%;
+        height: 280px;
+    }
+    
+    .caja1{
+        margin: 0;
+        width: 100%;
+        height: 280px;
+        background-color: greenyellow;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 2px 2px grey;
+    }
+
+    .section2{
+        width: 100%;
+        height: 260px;
+    }
+    
+    .caja2{
+        width: 32%;
+        height: 250px;
+        background-color: #3588ca;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    
+    .caja3{
+        margin: 5px 20px 0px 20px;
+        width: 32%;
+        height: 250px;
+        background-color: #3588ca;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    
+    .caja4{
+        width: 32%;
+        height: 250px;
+        background-color: #3588ca;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: right;
+    }
+
+    .section3{
+        margin-top: 10px;
+        width: 100%;
+        height: 230px;
+    }
+    
+    .caja5{
+        width: 24%;
+        height: 120px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    
+    .caja6{
+        margin: 0px 10px 0px 10px;
+        width: 24%;
+        height: 120px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    .caja7{
+        margin: 0px 10px 0px 5px;
+        width: 24%;
+        height: 120px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: left;
+    }
+    .caja8{
+        margin: 0px 0px 0px 0px;
+        width: 24%;
+        height: 120px;
+        background-color: whitesmoke;
+        box-shadow: 2px 2px 2px 2px grey;
+        float: right;
+    }
+}
